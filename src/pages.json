@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "家教系统",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/student/home",
+      "style": {
+        "navigationBarTitleText": "学生端",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/parent/home",
+      "style": {
+        "navigationBarTitleText": "家长端",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark"
+      }
+    },
+    {
+      "path": "pages/student/jobs",
+      "style": { "navigationBarTitleText": "找兼职", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/student/courses",
+      "style": { "navigationBarTitleText": "我的课程", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/student/income",
+      "style": { "navigationBarTitleText": "我的收入", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/student/resources",
+      "style": { "navigationBarTitleText": "教学资源", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/student/job-detail",
+      "style": { "navigationBarTitleText": "兼职详情", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/student/search",
+      "style": { "navigationBarTitleText": "搜索", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/teachers",
+      "style": { "navigationBarTitleText": "找老师", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/requirements",
+      "style": { "navigationBarTitleText": "我的需求", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/courses",
+      "style": { "navigationBarTitleText": "课程管理", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/orders",
+      "style": { "navigationBarTitleText": "我的订单", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/teacher-detail",
+      "style": { "navigationBarTitleText": "老师详情", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/parent/search",
+      "style": { "navigationBarTitleText": "搜索", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/common/messages",
+      "style": { "navigationBarTitleText": "消息中心", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/common/notice",
+      "style": { "navigationBarTitleText": "公告详情", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/common/article-detail",
+      "style": { "navigationBarTitleText": "文章详情", "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/common/banner-detail",
+      "style": { "navigationBarTitleText": "活动详情", "navigationStyle": "custom" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "家教系统",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F7FA"
+  }
+}

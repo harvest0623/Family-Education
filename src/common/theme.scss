@@ -1,0 +1,41 @@
+// 设计基准 750rpx
+$color-primary: #3678ff;
+$color-primary-light: #5b9dff;
+$color-primary-dark: #2456d4;
+$color-page-bg: #f5f7fa;
+$color-card-bg: #ffffff;
+$color-title: #333333;
+$color-body: #666666;
+$color-auxiliary: #999999;
+$color-border: #eef1f6;
+$color-warning: #ff8a3d;
+$color-success: #52c41a;
+$color-danger: #ff4d4f;
+$color-gold: #faad14;
+
+$radius-card: 16rpx;
+$radius-button: 40rpx;
+$radius-tag: 8rpx;
+
+$shadow-card: 0 4rpx 24rpx rgba(31, 56, 88, 0.06);
+$shadow-float: 0 8rpx 32rpx rgba(54, 120, 255, 0.12);
+$gradient-header: linear-gradient(180deg, #3678ff 0%, #5b9dff 52%, #f5f7fa 100%);
+$gradient-primary: linear-gradient(135deg, #3678ff 0%, #5b9dff 100%);
+
+@mixin card-base {
+  background: $color-card-bg;
+  border-radius: $radius-card;
+  box-shadow: $shadow-card;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
