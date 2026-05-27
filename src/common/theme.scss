@@ -23,19 +23,19 @@ $gradient-header: linear-gradient(180deg, #3678ff 0%, #5b9dff 52%, #f5f7fa 100%)
 $gradient-primary: linear-gradient(135deg, #3678ff 0%, #5b9dff 100%);
 
 @mixin card-base {
-  background: $color-card-bg;
-  border-radius: $radius-card;
-  box-shadow: $shadow-card;
+    background: $color-card-bg;
+    border-radius: $radius-card;
+    box-shadow: $shadow-card;
 }
 
 @mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @mixin ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
