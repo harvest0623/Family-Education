@@ -1,6 +1,10 @@
 /** 页面路由常量 */
 export const ROUTES = {
     INDEX: '/pages/index/index',
+    LOGIN: '/pages/auth/login',
+    REGISTER: '/pages/auth/register',
+    FORGOT_PASSWORD: '/pages/auth/forgot-password',
+    ROLE_SELECT: '/pages/auth/role-select',
     STUDENT_HOME: '/pages/student/home',
     PARENT_HOME: '/pages/parent/home',
     MESSAGES: '/pages/common/messages',
